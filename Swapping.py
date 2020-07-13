@@ -1,0 +1,12 @@
+a=20
+b=10
+""" 
+temp=a
+a=b
+b=temp
+print(a)
+print(b)
+"""
+a,b=b,a
+print(a)
+print(b)
